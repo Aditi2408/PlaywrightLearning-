@@ -4,5 +4,6 @@ test('Git Demo Test', async ({ page }) => {
   await page.goto('/');
   await expect(page).toHaveTitle(/Swag Labs/);
 
+  console.log("hello");
 
 });
